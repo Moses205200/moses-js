@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Latihan JavaScript - Moses</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Latihan JavaScript</h1><p>Website praktik Pemrograman Web Dasar</p></header>
+<main>
+<section class="card"><h2>1. Perkenalan</h2><p id="teksPerkenalan">Klik tombol untuk menampilkan perkenalan.</p><button onclick="perkenalan()">Klik di sini</button></section>
+<section class="card"><h2>2. Mengubah Tema</h2><p>Klik tombol untuk mengganti warna latar halaman.</p><button onclick="ubahTema()">Ganti Tema</button></section>
+<section class="card"><h2>3. Kalkulator Sederhana</h2><label for="angka1">Angka pertama</label><input type="number" id="angka1" placeholder="Masukkan angka"><label for="angka2">Angka kedua</label><input type="number" id="angka2" placeholder="Masukkan angka"><button onclick="hitungJumlah()">Hitung Penjumlahan</button><p id="hasilJumlah">Hasil akan muncul di sini.</p></section>
+<section class="card"><h2>4. Cek Bilangan Genap atau Ganjil</h2><label for="angkaCek">Masukkan bilangan bulat</label><input type="number" id="angkaCek" placeholder="Contoh: 7"><button onclick="cekBilangan()">Periksa</button><p id="hasilCek"></p></section>
+<section class="card"><h2>5. Menampilkan Waktu</h2><p id="waktu">Waktu akan muncul di sini.</p><button onclick="tampilkanWaktu()">Tampilkan Waktu</button></section>
+</main>
+<footer>© 2026 Moses | Praktik JavaScript</footer>
+<script src="script.js"></script>
+</body>
+</html>
